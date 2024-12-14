@@ -99,9 +99,11 @@
     new Typed('.typed', {
       strings: typed_strings,
       loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
+      typeSpeed: 40,
+      backSpeed: 0,             // Set backspeed to 0 to prevent backspacing
+      backDelay: 500,           // Delay between typing and starting to type the next string
+      showCursor: true,         // Show the cursor (set to false to hide it)
+      cursorChar: '|',
     });
   }
 
