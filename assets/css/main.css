@@ -142,6 +142,13 @@ h6 {
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
+
+h4 svg {
+  margin-bottom: 11px; /* Adjust the value as needed */
+  vertical-align: middle;
+  
+}
+
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
